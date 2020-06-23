@@ -2,11 +2,18 @@ const router = require("express").Router();
 const middleware = require('../lib/middleware')
 
 router.get('/', middleware.checkDomain, (req, res) => {
+
+    // Get session
     console.log("1", req.session)
+
+    // Set session
     req.session.username = 'ChrisSession'
     req.session.email = 'chris@gmail.com'
+
+    // Get session
     console.log("2", req.session)
-    res.send('Hello API')
+
+    res.send('Hello Session')
 })
 
 router.get('/edit/:path/', middleware.checkAdmin, (req, res) => {

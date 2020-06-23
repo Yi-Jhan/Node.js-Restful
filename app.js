@@ -20,8 +20,6 @@ app.use(session({
 }))
 
 app.get('/', (req, res) => {
-    req.session.username = 'tom'
-    req.session.email = 'email'
     res.send('Hello API')
 })
 
