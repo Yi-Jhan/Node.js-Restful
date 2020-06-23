@@ -2,6 +2,31 @@
 > 最新流行 ES6+ 的語法與邏輯，讓我們繼續看下去 XD
 > 喜歡就按個讚吧！
 
+## 時程：
+6/22 1
+Nodemon, Router, Middleware, Cookie, BodyParser, Get / Post
+
+6/23 2
+Cookie, Session
+
+6/29 1
+Get / Post / Delete / Put
+
+6/30 2
+Json Web Token
+
+7/1 3
+MongoDB, Mongo mongoose, Compass GUI
+
+7/2 4
+Heroku
+
+## 安裝與執行：
+```
+$ npm install
+$ nodemon app.js
+```
+
 ## 目錄：
 ###  1. 內容介紹: 
 使用 Node.js 製作 Restful API，包含以下功能
@@ -42,21 +67,3 @@
    b. 在 terminal 輸入 ```$ npm init``` -> 只是範例可以一路 Enter 按下去
     *(完成後會在 Node 資料夾內看到 package.json 檔案)*
    c. 安裝 ``` 2. 環境安裝 ``` 的套件內容，Reference 內都附有 npm 官方範例程式碼
-
-6/22 1
-Nodemon, Router, Middleware, Cookie, BodyParser, Get / Post
-
-6/23 2
-Cookie, Session
-
-6/29 1
-Get / Post / Delete / Put
-
-6/30 2
-Json Web Token
-
-7/1 3
-MongoDB, Mongo mongoose, Compass GUI
-
-7/2 4
-Heroku
