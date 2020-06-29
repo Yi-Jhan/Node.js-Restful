@@ -21,7 +21,7 @@ Cookie, Session
 }
 ```
 
-- getCookie: http://localhost:3000/user/setCookie  
+- getCookie: http://localhost:3000/user/getCookie  
 
 
 
