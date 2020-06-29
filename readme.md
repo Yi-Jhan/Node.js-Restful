@@ -9,6 +9,22 @@ Nodemon, Router, Middleware, Cookie, BodyParser, Get / Post
 6/23 2
 Cookie, Session
 
+GET:  
+setSession: http://localhost:3000/admin/setSession  
+checkSession: http://localhost:3000/admin/checkSession?user=chris  
+
+Post:  
+http://localhost:3000/user/setCookie  
+```
+{
+	"username":"Chris"
+}
+```
+
+http://localhost:3000/user/setCookie  
+
+
+
 6/29 1
 Get / Post / Delete / Put
 
