@@ -14,14 +14,14 @@ setSession: http://localhost:3000/admin/setSession
 checkSession: http://localhost:3000/admin/checkSession?user=chris  
 
 Post:  
-http://localhost:3000/user/setCookie  
+setCookie: http://localhost:3000/user/setCookie  
 ```
 {
 	"username":"Chris"
 }
 ```
 
-http://localhost:3000/user/setCookie  
+getCookie: http://localhost:3000/user/setCookie  
 
 
 
